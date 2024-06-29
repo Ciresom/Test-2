@@ -46,4 +46,7 @@ const cardArray = [
     img:'IMG_3494.png'
   },
 ]
-  
+
+cardArray.sort(() => 0.5 - Math.random())
+
+document.querySelector('#grid')
