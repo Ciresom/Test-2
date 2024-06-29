@@ -56,7 +56,6 @@ function createBoard () {
     const card = document.createElement('img');
     card.setAttribute('src','IMG_3988.png');
     card.setAttribute(data-id', i);
-    card.setAttribute('style','max-height:100px;max-width-100px;')
     gridDisplay.appendChild(card);
   }
 }
