@@ -1,7 +1,8 @@
 const cardArray = [
   {
+    
     name:'fries',
-    img:'',
-  }
+    img:'IMG_3490.png',
+  },
 ]
   
