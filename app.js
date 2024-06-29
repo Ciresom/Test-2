@@ -8,7 +8,7 @@ const cardArray = [
   },
   {
     name:'hotdog',
-    img:'IMG_3491.png'v
+    img:'IMG_3491.png',
   },
 ]
   
