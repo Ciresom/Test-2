@@ -49,7 +49,7 @@ const cardArray = [
 
 cardArray.sort(() => 0.5 - Math.random())
 
-const gridDisplay = document.querySelector('#grid')
+const grid = document.querySelector('#grid')
 
 function createBoard () {
   for (let i = 0; i < cardArray.length; i++) {
