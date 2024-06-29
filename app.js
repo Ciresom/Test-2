@@ -53,7 +53,7 @@ const gridDisplay = document.querySelector('#grid')
 
 function createBoard () {
   for (let i = 0; i < cardArray.length; i++) {
-    var card = document.createElement('img');
+    const card = document.createElement('img');
     card.setAttribute('src','IMG_3988');
     card.setAttribute(data-id', i);
     card.setAttribute('style','max-height:100px;max-width-100px;')
